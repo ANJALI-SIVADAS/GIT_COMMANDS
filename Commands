@@ -1,0 +1,18 @@
+# Push-a-folder-from-local-to-github
+
+git init
+git config --global user.email 'emailid'
+git add file1 file2
+git commit -m 'message'
+git remote add origin 'link from git repository'
+git push -u origin master   //or//    git push -f origin master
+
+Done.....
+
+
+# Push-a-folder-from-local-to-github
+
+git init
+git config --global user.email 'emailid'
+git remote add origin 'link from git repository'
+git pull origin master/branch
