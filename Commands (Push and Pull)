@@ -7,7 +7,7 @@ git commit -m 'message'
 git remote add origin 'link from git repository'
 git push -u origin master   //or//    git push -f origin master
 
-Done.....
+
 
 
 # Push-a-folder-from-local-to-github
