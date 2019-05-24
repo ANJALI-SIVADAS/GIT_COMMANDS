@@ -1,5 +1,5 @@
 # Push-from-local-to-github
-
+----------------------------------
 git init
 git config --global user.email 'emailid'
 git add file1 file2
@@ -11,15 +11,17 @@ git push -u origin master   //or//    git push -f origin master
 
 
 # Pull-from-github-to-local
-
+-----------------------------------
 git init
 git config --global user.email 'emailid'
 git remote add origin 'link from git repository'
 git pull origin master/branch
 
 
-#Git branching and merging:-
 
+
+#Git branching and merging:-
+-----------------------------------
 1. All the origin files are stored in master branch.
 2. These same files are copied to a new branch and then changes are made in that branch.
 3. After making changes, the new branch is merged with the master branch.
