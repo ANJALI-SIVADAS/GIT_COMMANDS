@@ -10,7 +10,7 @@ git push -u origin master   //or//    git push -f origin master
 
 
 
-# Pull-from-local-to-github
+# Pull-from-github-to-local
 
 git init
 git config --global user.email 'emailid'
