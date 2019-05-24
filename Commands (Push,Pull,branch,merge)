@@ -1,0 +1,37 @@
+# Push-from-local-to-github
+
+git init
+git config --global user.email 'emailid'
+git add file1 file2
+git commit -m 'message'
+git remote add origin 'link from git repository'
+git push -u origin master   //or//    git push -f origin master
+
+
+
+
+# Pull-from-local-to-github
+
+git init
+git config --global user.email 'emailid'
+git remote add origin 'link from git repository'
+git pull origin master/branch
+
+
+#Git branching and merging:-
+
+1. All the origin files are stored in master branch.
+2. These same files are copied to a new branch and then changes are made in that branch.
+3. After making changes, the new branch is merged with the master branch.
+4. The changes are highlighted in the master branch after merging.
+5. The new branch is then no longer required and is deleted from both local and remote using two different git commands.
+
+git push -f origin master             (original files pushed to master)
+git branch new_branch1                (new branch created)
+git checkout new_branch1              (moved to new branch. original files present in this branch)
+git push -f origin new_branch1        (hint: done after changes are made. changed files pushed to this branch)
+git merge new_branch1                 (hint: be in master and use this command)
+git push -f origin master             (changed files pushed to master)
+git branch -d new_branch1             (delete new_branch1 from local)
+git push origin --delete new_branch1  (delete new_branch1 from remote ,that is, git )
+
